@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './index.less';
 
 
 export default ({ src, className = '', style }) => {
