@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-export default ({ src, className = '', style }) => {
+export default ({ src, className = '', style = {} }) => {
     const [widthFullOrHeight, setWidthFullOrHeight] = useState('widthFull');
     return (
         <img

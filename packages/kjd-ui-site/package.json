@@ -1,0 +1,8 @@
+{
+    "name": "kjd-ui-site",
+    "version": "0.0.1",
+    "description": "kjd文档工程",
+    "dependencies": {
+        "docz": "^2.3.1"
+    }
+}
