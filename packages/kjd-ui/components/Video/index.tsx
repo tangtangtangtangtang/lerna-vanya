@@ -42,7 +42,7 @@ export default React.forwardRef(
     ) => {
         const [player, setPlayer] = useState(null);
         const [randomId] = useState(
-            `component-video-${(Math.random() * 1000).toFixed()}-container-${(Math.random() * 1000).toFixed()}`
+            `components-video-${(Math.random() * 1000).toFixed()}-container-${(Math.random() * 1000).toFixed()}`
         );
         const [randomVideoId] = useState(`video-component${(Math.random() * 1000).toFixed()}`);
         const [videoStatus, setVideoStatus] = useState(VIDEO_STATUS.pause);
