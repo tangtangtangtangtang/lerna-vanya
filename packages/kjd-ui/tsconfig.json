@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "es5", // 编译目标
+        "module": "commonjs", //模块配置
+        "lib": [
+            "es6",
+            "dom",
+            "es2015.promise"
+        ],
+        "jsx": "preserve",
+        "allowJs": false,
+        "checkJs": false,
+        "declaration": true, // 是否自动创建类型声明
+        "sourceMap": true,
+        "outDir": "./out/", // 输出目录
+        "removeComments": true, // 是否移除注释
+        "strict": true,
+        "noImplicitAny": false, // 是否默认禁用 any
+        "baseUrl": "./", // 工作根目录
+        "paths": {
+            "basePath/*": [
+                "/*"
+            ],
+        },
+        "esModuleInterop": true,
+    },
+    "exclude": [
+        "build",
+        "dist",
+        "out",
+        "*.config.js"
+    ]
+}
