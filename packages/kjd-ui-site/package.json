@@ -3,6 +3,7 @@
     "version": "0.0.1",
     "description": "kjd文档工程",
     "dependencies": {
-        "docz": "^2.3.1"
+        "docz": "^2.3.1",
+        "kjd-ui": "^0.0.8-alpha.0"
     }
 }

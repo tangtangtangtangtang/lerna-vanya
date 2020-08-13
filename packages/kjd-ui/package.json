@@ -13,7 +13,8 @@
         "star": "webpack-dev-server --config ./webpack/webpack.dev.config.js",
         "dev": "webpack-dev-server --config ./webpack/webpack.dev.config.js",
         "build": "node ./build.js",
-        "test": "jest --config .jest.site.js --cache=false"
+        "test": "jest --config .jest.site.js --cache=false",
+        "svg": "npx @svgr/cli components/assets/svg --typescript --icon --memo --out-dir components/Icons"
     },
     "prepublishOnly": "npm run build",
     "dependencies": {
@@ -25,6 +26,7 @@
         "@babel/preset-env": "^7.11.0",
         "@babel/preset-react": "^7.10.4",
         "@babel/preset-typescript": "^7.10.4",
+        "@svgr/cli": "^5.4.0",
         "@types/react": "^16.9.21",
         "@types/react-dom": "^16.9.5",
         "antd": "^4.5.4",
