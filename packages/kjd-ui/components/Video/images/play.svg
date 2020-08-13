@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>play</title>
+    <g id="达人广场" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="状态完善" transform="translate(-3091.000000, -516.000000)" fill="#FFFFFF">
+            <g id="编组-34备份-2" transform="translate(3083.000000, 206.000000)">
+                <g id="play" transform="translate(8.000000, 310.000000)">
+                    <rect id="矩形" fill-opacity="0.01" x="0" y="0" width="14" height="14"></rect>
+                    <path d="M2.91666667,1.69225583 C2.91666667,1.2225675 3.44343417,0.9454725 3.83047583,1.21156583 L11.5508167,6.519275 C11.8879833,6.75109167 11.8879833,7.24890833 11.5508167,7.48066667 L3.83047583,12.7884167 C3.44343417,13.0545333 2.91666667,12.7773917 2.91666667,12.3076917 L2.91666667,1.69225583 Z" id="路径" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
