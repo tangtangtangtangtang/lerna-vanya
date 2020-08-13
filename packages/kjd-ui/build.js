@@ -2,7 +2,7 @@
  * @Description: 利用Babel输出es模块
  * @Author: TangXiaozhuo
  * @Date: 2019-11-18 15:19:29
- * @LastEditTime: 2020-08-13 17:00:05
+ * @LastEditTime: 2020-08-13 19:38:47
  * @LastEditors: xiaozhuo
  */
 /**
@@ -12,7 +12,7 @@ const fs = require('fs-extra')
 const path = require('path')
 const babel = require('@babel/core')
 
-const esDir = path.join(__dirname, './es')
+const esDir = path.join(__dirname, './lib')
 // const libDir = path.join(__dirname, '../lib')
 const srcDir = path.join(__dirname, './components')
 
